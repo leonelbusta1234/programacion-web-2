@@ -22,7 +22,6 @@ namespace ProyectoWeb.AccesoDatos.Data.Repository
 
         public IAlmacenRepository Almacen { get; private set; }
 
-        IAlmacenRepository IContenedorTrabajo.Almacan => throw new NotImplementedException();
 
         public void Dispose()
         {

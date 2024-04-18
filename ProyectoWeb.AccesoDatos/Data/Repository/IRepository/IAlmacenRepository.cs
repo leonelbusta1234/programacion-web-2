@@ -12,7 +12,7 @@ namespace ProyectoWeb.AccesoDatos.Data.IRepository.IRepository
     public interface IAlmacenRepository : IRepository<Almacen>
     {
         void Update(Almacen almacen);
-        IEnumerable<SelectListItem> GetListaAlmacenes();
+        //IEnumerable<SelectListItem> GetListaAlmacenes();
     }
 }
 

@@ -17,3 +17,4 @@ C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.AccesoDatos
 C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.AccesoDatos\obj\Debug\net8.0\ProyectoWeb.AccesoDatos.csproj.AssemblyReference.cache
 C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.AccesoDatos\obj\Debug\net8.0\Proyecto.F50D9DD8.Up2Date
 C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.AccesoDatos\obj\Debug\net8.0\ProyectoWeb.AccesoDatos.genruntimeconfig.cache
+C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.AccesoDatos\obj\Debug\net8.0\ProyectoWeb.AccesoDatos.sourcelink.json

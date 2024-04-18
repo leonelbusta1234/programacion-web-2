@@ -9,3 +9,4 @@ C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Models\obj\
 C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Models\obj\Debug\net8.0\refint\ProyectoWeb.Models.dll
 C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Models\obj\Debug\net8.0\ProyectoWeb.Models.pdb
 C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Models\obj\Debug\net8.0\ref\ProyectoWeb.Models.dll
+C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Models\obj\Debug\net8.0\ProyectoWeb.Models.sourcelink.json

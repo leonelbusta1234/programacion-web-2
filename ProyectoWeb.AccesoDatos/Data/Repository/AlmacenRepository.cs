@@ -20,10 +20,10 @@ namespace ProyectoWeb.AccesoDatos.Data.Repository
             _db = db;
         }
 
-        public IEnumerable<SelectListItem> GetListaAlmacenes()
-        {
-            throw new NotImplementedException();
-        }
+        //public IEnumerable<SelectListItem> GetListaAlmacenes()
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         public void Update(Almacen almacen)
         {

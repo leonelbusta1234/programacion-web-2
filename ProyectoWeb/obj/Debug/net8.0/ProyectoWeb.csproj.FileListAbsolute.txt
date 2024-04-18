@@ -266,3 +266,4 @@ C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb\bin\Debug\n
 C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb\bin\Debug\net8.0\ProyectoWeb.AccesoDatos.pdb
 C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb\bin\Debug\net8.0\ProyectoWeb.Models.pdb
 C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb\bin\Debug\net8.0\ProyectoWeb.Utilidades.pdb
+C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb\obj\Debug\net8.0\ProyectoWeb.sourcelink.json

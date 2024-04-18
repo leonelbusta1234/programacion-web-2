@@ -9,3 +9,4 @@ C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\
 C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\obj\Debug\net8.0\refint\ProyectoWeb.Utilidades.dll
 C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\obj\Debug\net8.0\ProyectoWeb.Utilidades.pdb
 C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\obj\Debug\net8.0\ref\ProyectoWeb.Utilidades.dll
+C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\obj\Debug\net8.0\ProyectoWeb.Utilidades.sourcelink.json

@@ -9,7 +9,7 @@ namespace ProyectoWeb.AccesoDatos.Data.Repository.IRepository
 {
     public interface IContenedorTrabajo : IDisposable
     {
-        IAlmacenRepository Almacan { get; }
+        IAlmacenRepository Almacen { get; }
 
         void Save();
     }
