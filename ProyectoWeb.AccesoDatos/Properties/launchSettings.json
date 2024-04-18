@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ProyectoWeb.AccesoDatos": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

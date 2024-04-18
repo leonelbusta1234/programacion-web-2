@@ -1,0 +1,11 @@
+C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\bin\Debug\net8.0\ProyectoWeb.Utilidades.deps.json
+C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\bin\Debug\net8.0\ProyectoWeb.Utilidades.dll
+C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\bin\Debug\net8.0\ProyectoWeb.Utilidades.pdb
+C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\obj\Debug\net8.0\ProyectoWeb.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\obj\Debug\net8.0\ProyectoWeb.Utilidades.AssemblyInfoInputs.cache
+C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\obj\Debug\net8.0\ProyectoWeb.Utilidades.AssemblyInfo.cs
+C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\obj\Debug\net8.0\ProyectoWeb.Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\obj\Debug\net8.0\ProyectoWeb.Utilidades.dll
+C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\obj\Debug\net8.0\refint\ProyectoWeb.Utilidades.dll
+C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\obj\Debug\net8.0\ProyectoWeb.Utilidades.pdb
+C:\Users\victus\Downloads\programacion web 2\ProyectoWeb\ProyectoWeb.Utilidades\obj\Debug\net8.0\ref\ProyectoWeb.Utilidades.dll
