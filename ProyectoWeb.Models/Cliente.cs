@@ -12,6 +12,7 @@ namespace ProyectoWeb.Models
         public string Nombre { get; set; }
         public string Paterno { get; set; }
         public string Materno { get; set; }
-        public int Telefono { get; set; }
+        public int Celular { get; set; }
+        public int CarnetIdentidad { get; set; }
     }
 }

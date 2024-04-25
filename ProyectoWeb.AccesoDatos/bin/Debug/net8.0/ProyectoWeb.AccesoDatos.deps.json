@@ -981,6 +981,9 @@
         }
       },
       "ProyectoWeb.Models/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "8.0.4"
+        },
         "runtime": {
           "ProyectoWeb.Models.dll": {}
         }

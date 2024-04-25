@@ -1,4 +1,5 @@
 ﻿using ProyectoWeb.AccesoDatos.Data.IRepository.IRepository;
+using ProyectoWeb.Data.Repository.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,10 @@ namespace ProyectoWeb.AccesoDatos.Data.Repository.IRepository
     public interface IContenedorTrabajo : IDisposable
     {
         IAlmacenRepository Almacen { get; }
+        IClienteRepository Cliente { get; }
 
+        IProductoRepository Producto { get; }
+        ISliderRepository Slider { get; }
         void Save();
     }
 

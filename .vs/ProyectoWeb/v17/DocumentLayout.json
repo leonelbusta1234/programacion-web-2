@@ -1,12 +1,429 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F97CB871-A798-4125-A040-5F8BC64DDFAA}|ProyectoWeb.Models\\ProyectoWeb.Models.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb.models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F97CB871-A798-4125-A040-5F8BC64DDFAA}|ProyectoWeb.Models\\ProyectoWeb.Models.csproj|solutionrelative:proyectoweb.models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb\\views\\shared\\_slider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\views\\shared\\_slider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{411CB8B6-35FC-4B43-A1E7-403C30D35F8C}|ProyectoWeb.Utilidades\\ProyectoWeb.Utilidades.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb.utilidades\\cnt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{411CB8B6-35FC-4B43-A1E7-403C30D35F8C}|ProyectoWeb.Utilidades\\ProyectoWeb.Utilidades.csproj|solutionrelative:proyectoweb.utilidades\\cnt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.AccesoDatos\\Migrations\\20240425212037_segus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoWeb.AccesoDatos\\Migrations\\20240425212037_segus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F97CB871-A798-4125-A040-5F8BC64DDFAA}|ProyectoWeb.Models\\ProyectoWeb.Models.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb.models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F97CB871-A798-4125-A040-5F8BC64DDFAA}|ProyectoWeb.Models\\ProyectoWeb.Models.csproj|solutionrelative:proyectoweb.models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314AA8F3-FF94-46FD-9110-A675D27E3F73}|ProyectoWeb.AccesoDatos\\ProyectoWeb.AccesoDatos.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb.accesodatos\\data\\repository\\almacenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314AA8F3-FF94-46FD-9110-A675D27E3F73}|ProyectoWeb.AccesoDatos\\ProyectoWeb.AccesoDatos.csproj|solutionrelative:proyectoweb.accesodatos\\data\\repository\\almacenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F97CB871-A798-4125-A040-5F8BC64DDFAA}|ProyectoWeb.Models\\ProyectoWeb.Models.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb.models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F97CB871-A798-4125-A040-5F8BC64DDFAA}|ProyectoWeb.Models\\ProyectoWeb.Models.csproj|solutionrelative:proyectoweb.models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb\\areas\\admin\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\areas\\admin\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb\\areas\\admin\\controllers\\sliderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32BD09-3611-430F-BB1A-5FB438062BEB}|ProyectoWeb\\ProyectoWeb.csproj|solutionrelative:proyectoweb\\areas\\admin\\controllers\\sliderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F97CB871-A798-4125-A040-5F8BC64DDFAA}|ProyectoWeb.Models\\ProyectoWeb.Models.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb.models\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F97CB871-A798-4125-A040-5F8BC64DDFAA}|ProyectoWeb.Models\\ProyectoWeb.Models.csproj|solutionrelative:proyectoweb.models\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F97CB871-A798-4125-A040-5F8BC64DDFAA}|ProyectoWeb.Models\\ProyectoWeb.Models.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb.models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F97CB871-A798-4125-A040-5F8BC64DDFAA}|ProyectoWeb.Models\\ProyectoWeb.Models.csproj|solutionrelative:proyectoweb.models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314AA8F3-FF94-46FD-9110-A675D27E3F73}|ProyectoWeb.AccesoDatos\\ProyectoWeb.AccesoDatos.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb.accesodatos\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314AA8F3-FF94-46FD-9110-A675D27E3F73}|ProyectoWeb.AccesoDatos\\ProyectoWeb.AccesoDatos.csproj|solutionrelative:proyectoweb.accesodatos\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314AA8F3-FF94-46FD-9110-A675D27E3F73}|ProyectoWeb.AccesoDatos\\ProyectoWeb.AccesoDatos.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb.accesodatos\\migrations\\20240425200227_clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314AA8F3-FF94-46FD-9110-A675D27E3F73}|ProyectoWeb.AccesoDatos\\ProyectoWeb.AccesoDatos.csproj|solutionrelative:proyectoweb.accesodatos\\migrations\\20240425200227_clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314AA8F3-FF94-46FD-9110-A675D27E3F73}|ProyectoWeb.AccesoDatos\\ProyectoWeb.AccesoDatos.csproj|c:\\users\\victus\\downloads\\programacion web 2\\proyectoweb\\proyectoweb.accesodatos\\migrations\\20240425205215_primeramigracionpo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314AA8F3-FF94-46FD-9110-A675D27E3F73}|ProyectoWeb.AccesoDatos\\ProyectoWeb.AccesoDatos.csproj|solutionrelative:proyectoweb.accesodatos\\migrations\\20240425205215_primeramigracionpo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProyectoWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAHMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T21:30:06.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "ProyectoWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAQwDsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T21:16:43.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ProyectoWeb\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T20:46:25.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ProyectoWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T20:46:24.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CNT.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.Utilidades\\CNT.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb.Utilidades\\CNT.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.Utilidades\\CNT.cs",
+              "RelativeToolTip": "ProyectoWeb.Utilidades\\CNT.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:21:30.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Slider.cshtml",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Views\\Shared\\_Slider.cshtml",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Views\\Shared\\_Slider.cshtml",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Views\\Shared\\_Slider.cshtml",
+              "RelativeToolTip": "ProyectoWeb\\Views\\Shared\\_Slider.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T20:46:21.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Slider.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.Models\\Slider.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb.Models\\Slider.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.Models\\Slider.cs",
+              "RelativeToolTip": "ProyectoWeb.Models\\Slider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:20:46.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "ProyectoWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAwwGoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T21:15:53.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240425212037_segus.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.AccesoDatos\\Migrations\\20240425212037_segus.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb.AccesoDatos\\Migrations\\20240425212037_segus.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.AccesoDatos\\Migrations\\20240425212037_segus.cs",
+              "RelativeToolTip": "ProyectoWeb.AccesoDatos\\Migrations\\20240425212037_segus.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T21:20:37.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ProyectoWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T20:46:19.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb.Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.Models\\ApplicationUser.cs",
+              "RelativeToolTip": "ProyectoWeb.Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T19:55:24.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20240425205215_primeramigracionpo.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.AccesoDatos\\Migrations\\20240425205215_primeramigracionpo.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb.AccesoDatos\\Migrations\\20240425205215_primeramigracionpo.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.AccesoDatos\\Migrations\\20240425205215_primeramigracionpo.cs",
+              "RelativeToolTip": "ProyectoWeb.AccesoDatos\\Migrations\\20240425205215_primeramigracionpo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:52:15.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Areas\\Identity\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeToolTip": "ProyectoWeb\\Areas\\Identity\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T20:46:14.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ProyectoWeb\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T20:46:09.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "ProyectoWeb\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T20:46:04.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "ProyectoWeb\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T20:46:03.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AlmacenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.AccesoDatos\\Data\\Repository\\AlmacenRepository.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb.AccesoDatos\\Data\\Repository\\AlmacenRepository.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.AccesoDatos\\Data\\Repository\\AlmacenRepository.cs",
+              "RelativeToolTip": "ProyectoWeb.AccesoDatos\\Data\\Repository\\AlmacenRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:36:52.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SlidersController.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Admin\\Controllers\\SlidersController.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Areas\\Admin\\Controllers\\SlidersController.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Admin\\Controllers\\SlidersController.cs",
+              "RelativeToolTip": "ProyectoWeb\\Areas\\Admin\\Controllers\\SlidersController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:21:59.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeVM.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.Models\\ViewModels\\HomeVM.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb.Models\\ViewModels\\HomeVM.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.Models\\ViewModels\\HomeVM.cs",
+              "RelativeToolTip": "ProyectoWeb.Models\\ViewModels\\HomeVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:21:40.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Admin\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb\\Areas\\Admin\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\Areas\\Admin\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "ProyectoWeb\\Areas\\Admin\\Controllers\\ClientesController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:22:05.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb.Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.Models\\Cliente.cs",
+              "RelativeToolTip": "ProyectoWeb.Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:22:10.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb.Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.Models\\Categoria.cs",
+              "RelativeToolTip": "ProyectoWeb.Models\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:20:54.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.AccesoDatos\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb.AccesoDatos\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.AccesoDatos\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProyectoWeb.AccesoDatos\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:19:27.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20240425200227_clase.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.AccesoDatos\\Migrations\\20240425200227_clase.cs",
+              "RelativeDocumentMoniker": "ProyectoWeb.AccesoDatos\\Migrations\\20240425200227_clase.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb.AccesoDatos\\Migrations\\20240425200227_clase.cs",
+              "RelativeToolTip": "ProyectoWeb.AccesoDatos\\Migrations\\20240425200227_clase.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:06:23.278Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

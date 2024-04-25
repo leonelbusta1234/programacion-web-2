@@ -13,12 +13,52 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\wwwroot\\imagenes\\1.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\wwwroot\\imagenes\\1.png",
+      "PackagePath": "staticwebassets\\imagenes\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\wwwroot\\imagenes\\2.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\wwwroot\\imagenes\\3.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\wwwroot\\imagenes\\4.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\wwwroot\\imagenes\\5.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\wwwroot\\imagenes\\6.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\wwwroot\\imagenes\\7.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\wwwroot\\imagenes\\8.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\8.jpg"
+    },
+    {
       "Id": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\wwwroot\\js\\almacen.js",
       "PackagePath": "staticwebassets\\js\\almacen.js"
     },
     {
       "Id": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\wwwroot\\js\\slider.js",
+      "PackagePath": "staticwebassets\\js\\slider.js"
     },
     {
       "Id": "C:\\Users\\victus\\Downloads\\programacion web 2\\ProyectoWeb\\ProyectoWeb\\wwwroot\\lib\\bootstrap\\LICENSE",

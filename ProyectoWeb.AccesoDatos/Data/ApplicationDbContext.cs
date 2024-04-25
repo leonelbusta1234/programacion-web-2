@@ -12,8 +12,10 @@ namespace ProyectoWeb.Data
         }
 
         public DbSet<Almacen> Almacen { get; set; }
-        public DbSet<Cliente> Clente { get; set; }
         public DbSet<Categoria> Categoria { get; set; }
-
+        public DbSet<ApplicationUser> ApplicationUser { get; set; }
+        public DbSet<Producto> Producto { get; set; }
+        public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<Slider> Slider { get; set; }
     }
 }

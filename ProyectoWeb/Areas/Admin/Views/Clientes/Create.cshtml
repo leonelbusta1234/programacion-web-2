@@ -1,0 +1,86 @@
+﻿@model ProyectoWeb.Models.Cliente
+
+@{
+    ViewData["Title"] = "Crear cliente";
+}
+<br />
+<br />
+<h3 class="text-center">Crear nuevo cliente</h3>
+<form method="POST" asp-action="Create">
+    <div class="row px-2 offset-1 Border">
+        <div asp-validation-summary="All" class="text-danger">
+        </div>
+        <div class="col-10 offset-1 mt4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Nombre"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Nombre" class="form-control" placeholder="Ingresa el Nombre" />
+                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Paterno"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Paterno" class="form-control" placeholder="Ingrese su apellido paterno" />
+                    <span asp-validation-for="Paterno" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Materno"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Materno" class="form-control" placeholder="Ingrese su apellido materno" />
+                    <span asp-validation-for="Materno" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="CarnetIdentidad"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="CarnetIdentidad" class="form-control" placeholder="Ingresa su carnet de identidad" />
+                    <span asp-validation-for="CarnetIdentidad" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Celular"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Celular" class="form-control" placeholder="Ingresa su numero de celular" />
+                    <span asp-validation-for="Celular" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-8">
+                    @*   <partial name="_VistaCrearVolver" /> *@
+                    ﻿<div class="row">
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary form-control">Crear </button>
+                        </div>
+                        &nbsp;
+                        <div class="col">
+                            <a asp-action="Index" class="btn btn-success form-control">Volver atras</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+

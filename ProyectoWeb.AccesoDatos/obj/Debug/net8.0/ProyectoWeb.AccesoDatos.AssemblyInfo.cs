@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoWeb.AccesoDatos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3efd50a2ea462ffca3458af0fa435ac1e0348734")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e67043dc16404861e141c550d3b42e2f319841aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoWeb.AccesoDatos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoWeb.AccesoDatos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

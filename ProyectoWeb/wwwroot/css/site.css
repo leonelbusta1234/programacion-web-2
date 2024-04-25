@@ -20,3 +20,12 @@ html {
 body {
   margin-bottom: 60px;
 }
+.carousel-inner img {
+    max-height: 500px; /* Define el alto máximo */
+    width: auto; /* Mantiene la proporción de la imagen */
+}
+
+.logo {
+    max-width: 60px; /* Ajusta el tamaño máximo del logotipo */
+    margin-right: 10px; /* Espacio entre el logotipo y el texto */
+}
