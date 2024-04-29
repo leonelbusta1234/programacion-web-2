@@ -12,6 +12,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -19,31 +20,38 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using ProyectoWeb.Models;
+using ProyectoWeb.Utilidades;
 
 namespace ProyectoWeb.Areas.Identity.Pages.Account
 {
+
     public class RegisterModel : PageModel
     {
-        private readonly SignInManager<ApplicationUser> _signInManager;
-        private readonly UserManager<ApplicationUser> _userManager;
-        private readonly IUserStore<ApplicationUser> _userStore;
-        private readonly IUserEmailStore<ApplicationUser> _emailStore;
+        private readonly SignInManager<ProyectoWeb.Models.ApplicationUser> _signInManager;
+        private readonly UserManager<ProyectoWeb.Models.ApplicationUser> _userManager;
+        private readonly IUserStore<ProyectoWeb.Models.ApplicationUser> _userStore;
+        private readonly IUserEmailStore<ProyectoWeb.Models.ApplicationUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
 
+        private readonly RoleManager<IdentityRole> _roleManager;
         public RegisterModel(
-            UserManager<ApplicationUser> userManager,
-            IUserStore<ApplicationUser> userStore,
-            SignInManager<ApplicationUser> signInManager,
+            UserManager<ProyectoWeb.Models.ApplicationUser> userManager,
+            IUserStore<ProyectoWeb.Models.ApplicationUser> userStore,
+            SignInManager<ProyectoWeb.Models.ApplicationUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender)
-        {
+            IEmailSender emailSender,
+            RoleManager<IdentityRole> roleManager)
+
+        {   
             _userManager = userManager;
             _userStore = userStore;
             _emailStore = GetEmailStore();
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
+
+            _roleManager = roleManager;
         }
 
         /// <summary>
@@ -104,7 +112,7 @@ namespace ProyectoWeb.Areas.Identity.Pages.Account
             [Required(ErrorMessage = "La Apellido es obligarotia")]
             public string Apellido { get; set; }
 
-            [Required(ErrorMessage = "El Telefono es obligarotia")]
+            [Required(ErrorMessage = "El Telefono    es obligarotia")]
             public int Telefono { get; set; }
 
             [Required(ErrorMessage = "La Ciudad es obligatoria")]
@@ -125,26 +133,42 @@ namespace ProyectoWeb.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
-
+                user.Nombre = Input.Nombre;
+                user.Apellido = Input.Apellido;
+                user.Telefono = Input.Telefono;
+                user.Ciudad = Input.Ciudad;
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
                 {
+                    if (!await _roleManager.RoleExistsAsync(CNT.Administrador))
+                    {
+                        await _roleManager.CreateAsync(new IdentityRole(CNT.Administrador));
+                        await _roleManager.CreateAsync(new IdentityRole(CNT.Cliente));
+                        await _roleManager.CreateAsync(new IdentityRole(CNT.Registrado));
+                    }
+                    string rol = Request.Form["radUsuarioRole"].ToString();
+                    if (rol == CNT.Administrador)
+                        await _userManager.AddToRoleAsync(user, CNT.Administrador);
+                    if (rol == CNT.Cliente)
+                        await _userManager.AddToRoleAsync(user, CNT.Cliente);
+                    if (rol == CNT.Registrado)
+                        await _userManager.AddToRoleAsync(user, CNT.Registrado);
                     _logger.LogInformation("User created a new account with password.");
 
-                    var userId = await _userManager.GetUserIdAsync(user);
-                    var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-                    code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
-                    var callbackUrl = Url.Page(
-                        "/Account/ConfirmEmail",
-                        pageHandler: null,
-                        values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
-                        protocol: Request.Scheme);
+                    //var userId = await _userManager.GetUserIdAsync(user);
+                    //var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+                    //code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
+                    //var callbackUrl = Url.Page(
+                    //    "/Account/ConfirmEmail",
+                    //    pageHandler: null,
+                    //    values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
+                    //    protocol: Request.Scheme);
 
-                    await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
-                        $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                    //await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
+                    //    $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {
@@ -166,27 +190,27 @@ namespace ProyectoWeb.Areas.Identity.Pages.Account
             return Page();
         }
 
-        private ApplicationUser CreateUser()
+        private ProyectoWeb.Models.ApplicationUser CreateUser()
         {
             try
             {
-                return Activator.CreateInstance<ApplicationUser>();
+                return Activator.CreateInstance<ProyectoWeb.Models.ApplicationUser>();
             }
             catch
             {
-                throw new InvalidOperationException($"Can't create an instance of '{nameof(ApplicationUser)}'. " +
-                    $"Ensure that '{nameof(ApplicationUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
+                throw new InvalidOperationException($"Can't create an instance of '{nameof(ProyectoWeb.Models.ApplicationUser)}'. " +
+                    $"Ensure that '{nameof(ProyectoWeb.Models.ApplicationUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
                     $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
             }
         }
 
-        private IUserEmailStore<ApplicationUser> GetEmailStore()
+        private IUserEmailStore<ProyectoWeb.Models.ApplicationUser> GetEmailStore()
         {
             if (!_userManager.SupportsUserEmail)
             {
                 throw new NotSupportedException("The default UI requires a user store with email support.");
             }
-            return (IUserEmailStore<ApplicationUser>)_userStore;
+            return (IUserEmailStore<ProyectoWeb.Models.ApplicationUser>)_userStore;
         }
     }
 }

@@ -27,6 +27,12 @@ namespace ProyectoWeb.AccesoDatos.Data.Repository
             Producto = new ProductoRepository(_context);
             
             Slider = new SliderRepository(_context);
+
+            Oficina = new OficinaRepository(_context);
+
+            Usuario = new UsuarioRepository(_context);
+
+
         }
 
         public IAlmacenRepository Almacen { get; private set; }
@@ -35,6 +41,10 @@ namespace ProyectoWeb.AccesoDatos.Data.Repository
         public IProductoRepository Producto { get; private set; }
 
         public ISliderRepository Slider { get; private set; }
+
+        public IOficinaRepository Oficina { get; private set; }
+
+        public IUsuarioRepository Usuario { get; private set; }
 
 
         public void Dispose()

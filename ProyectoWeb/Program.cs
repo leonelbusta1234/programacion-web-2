@@ -8,17 +8,23 @@ using ProyectoWeb.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("ConexionSQL") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+var connectionString = builder.Configuration.GetConnectionString("ConexionSQL") ?? throw new InvalidOperationException
+    ("Connection string 'ConexionSQL' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>
+    (options => options.SignIn.RequireConfirmedAccount = false)
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultUI();
+
+
+
 builder.Services.AddControllersWithViews();
 
-//agregar contenedor de trabajo al contenedos IoC de inyeccion de dependencias
 builder.Services.AddScoped<IContenedorTrabajo, ContenedorTrabajo>();
+builder.Services.AddScoped<IOficinaRepository, OficinaRepository>();
 
 var app = builder.Build();
 
@@ -43,7 +49,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{area=Cliente}/{controller=Home}/{action=Index}/{id?}");
+    pattern: "{Area=Cliente}/{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
 app.Run();

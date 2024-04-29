@@ -17,5 +17,7 @@ namespace ProyectoWeb.Data
         public DbSet<Producto> Producto { get; set; }
         public DbSet<Cliente> Cliente { get; set; }
         public DbSet<Slider> Slider { get; set; }
+
+        public DbSet<Oficina> Oficina { get; set; }
     }
 }

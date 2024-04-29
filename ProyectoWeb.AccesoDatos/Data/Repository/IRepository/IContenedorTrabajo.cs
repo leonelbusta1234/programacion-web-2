@@ -15,6 +15,10 @@ namespace ProyectoWeb.AccesoDatos.Data.Repository.IRepository
 
         IProductoRepository Producto { get; }
         ISliderRepository Slider { get; }
+
+        IOficinaRepository Oficina { get; }
+
+        IUsuarioRepository Usuario { get; }
         void Save();
     }
 
